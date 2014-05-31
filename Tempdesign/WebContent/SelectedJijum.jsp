@@ -160,10 +160,9 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-
-<table style="position:absolute;left:12px;top:42px;width:960px;height:462px;z-index:1;" cellpadding="0" cellspacing="1" id="Table1">
+<table style="position:absolute;left:12px;top:43px;width:961px;height:462px;z-index:1;" cellpadding="0" cellspacing="1" id="Table1">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:231px;height:454px;">&nbsp;</td>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:232px;height:454px;">&nbsp;</td>
 <td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:454px;">&nbsp;</td>
 </tr>
 </table>
@@ -285,24 +284,59 @@ $(document).ready(function()
 </li>
 </ul>
 </div>
-<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:30px;top:155px;width:138px;height:16px;z-index:6;" rows="0" cols="17">선택한 지점</textarea>
-
-<table style="position:absolute;left:250px;top:48px;width:717px;height:30px;z-index:5;" cellpadding="0" cellspacing="1" id="Table2">
+<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:30px;top:155px;width:138px;height:16px;z-index:5;" rows="0" cols="17">선택한 지점</textarea>
+<input type="button" id="Button1" name="" value="수정완료" style="position:absolute;left:847px;top:518px;width:96px;height:25px;z-index:6;">
+<table style="position:absolute;left:252px;top:47px;width:713px;height:30px;z-index:7;" cellpadding="0" cellspacing="1" id="Table2">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 지점코드</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:110px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">지점코드</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:94px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 지점명</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:160px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 지점명</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 보유차량수</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:180px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;">운영시간1</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:52px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원수</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:180px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;">운영시간2</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:78px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">지점책임자</span></div>
+</tr>
+</table>
+<input type="text" id="Editbox1" style="position:absolute;left:314px;top:49px;width:50px;height:19px;line-height:19px;z-index:8;" name="Editbox1" value="">
+<input type="text" id="Editbox2" style="position:absolute;left:425px;top:49px;width:122px;height:19px;line-height:19px;z-index:9;" name="Editbox1" value="">
+<input type="text" id="Editbox3" style="position:absolute;left:640px;top:49px;width:111px;height:19px;line-height:19px;z-index:10;" name="Editbox1" value="">
+<input type="text" id="Editbox4" style="position:absolute;left:854px;top:49px;width:111px;height:19px;line-height:19px;z-index:11;" name="Editbox1" value="">
+<table style="position:absolute;left:258px;top:89px;width:259px;height:30px;z-index:12;" cellpadding="0" cellspacing="1" id="Table3">
+<tr>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:76px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원번호</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:154px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운영시간1</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:76px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원이름</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운영시간2</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:48px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직무</span></div>
 </td>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:22px;">&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><input type="button" value="행삭제"/></td>
+</tr>
+</table>
+<table style="position:absolute;left:524px;top:89px;width:433px;height:30px;z-index:13;" cellpadding="0" cellspacing="1" id="Table4">
+<tr>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:74px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">차량번호</span></div>
+</td>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 차종</span></div>
+</td>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:74px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 기사</span></div>
+</td>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:78px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운행목적(지)&nbsp;&nbsp; </span></div>
+</td>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:40px;height:22px;">&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><input type="button" value="행삭제"/></td>
 </tr>
 </table>
 </body>

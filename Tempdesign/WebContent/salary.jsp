@@ -227,9 +227,9 @@ h1
 <option value="사원번호">사원번호</option>
 </select>
 <textarea name="TextArea2" id="TextArea2" style="position:absolute;left:838px;top:25px;width:148px;height:16px;z-index:6;" rows="0" cols="19"></textarea>
-<input type="submit" id="Button1" name="search" value="검색" style="position:absolute;left:996px;top:25px;width:39px;height:19px;z-index:7;">
-<input type="submit" id="Button2" name="" value="◀이전 " style="position:absolute;left:849px;top:520px;width:57px;height:25px;z-index:8;">
-<input type="submit" id="Button3" name="" value="다음▶" style="position:absolute;left:914px;top:520px;width:58px;height:25px;z-index:9;">
+<input type="button" id="Button1" name="search" value="검색" style="position:absolute;left:996px;top:25px;width:39px;height:19px;z-index:7;">
+<input type="button" id="Button2" name="" value="◀이전 " style="position:absolute;left:849px;top:520px;width:57px;height:25px;z-index:8;">
+<input type="button" id="Button3" name="" value="다음▶" style="position:absolute;left:914px;top:520px;width:58px;height:25px;z-index:9;">
 
 </body>
 </html>

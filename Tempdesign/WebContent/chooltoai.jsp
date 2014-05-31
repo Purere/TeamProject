@@ -226,9 +226,9 @@ h1
 <option value="사원번호">사원번호</option>
 </select>
 <textarea name="TextArea2" id="TextArea2" style="position:absolute;left:838px;top:25px;width:148px;height:16px;z-index:5;" rows="0" cols="19"></textarea>
-<input type="submit" id="Button1" name="search" value="검색" style="position:absolute;left:996px;top:25px;width:39px;height:19px;z-index:6;">
-<input type="submit" id="Button2" name="" value="◀이전월 " style="position:absolute;left:849px;top:520px;width:57px;height:25px;z-index:7;">
-<input type="submit" id="Button3" name="" value="다음월▶" style="position:absolute;left:914px;top:520px;width:58px;height:25px;z-index:8;">
+<input type="button" id="Button1" name="search" value="검색" style="position:absolute;left:996px;top:25px;width:39px;height:19px;z-index:6;">
+<input type="button" id="Button2" name="" value="◀이전월 " style="position:absolute;left:849px;top:520px;width:57px;height:25px;z-index:7;">
+<input type="button" id="Button3" name="" value="다음월▶" style="position:absolute;left:914px;top:520px;width:58px;height:25px;z-index:8;">
 <input type="text" id="Editbox1" style="position:absolute;left:35px;top:90px;width:125px;height:18px;line-height:18px;z-index:9;" name="Editbox1" value="지점시작 전 30분">
 <input type="text" id="Editbox2" style="position:absolute;left:34px;top:155px;width:129px;height:19px;line-height:19px;z-index:10;" name="Editbox2" value="지점종료 후 30분">
 </body>

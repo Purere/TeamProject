@@ -391,7 +391,7 @@ $(document).ready(function()
 </tr>
 </table>
 
-<input type="submit" id="Button1" name="register" value="등록하기" style="position:absolute;left:263px;top:424px;width:96px;height:25px;z-index:19;">
+<input type="button" id="Button1" name="register" value="등록하기" style="position:absolute;left:263px;top:424px;width:96px;height:25px;z-index:19;">
 
 <select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:550px;top:522px;width:94px;height:20px;z-index:4;">
 <option selected value="이름">이름</option>

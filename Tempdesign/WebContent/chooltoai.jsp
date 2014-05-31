@@ -179,7 +179,7 @@ h1
 </style>
 </head>
 <body>
-<table style="position:absolute;left:27px;top:93px;width:1018px;height:460px;z-index:1;" cellpadding="0" cellspacing="1" id="Table1">
+<table style="position:absolute;left:27px;top:50px;width:1018px;height:460px;z-index:1;" cellpadding="0" cellspacing="1" id="Table1">
 <tr>
 <td style="background-color:transparent;background-image:url(images/index_Table1_cell0_bkgrnd.png);background-repeat:repeat-x;background-position:left top;border:1px #FFFFFF groove;text-align:left;vertical-align:top;width:141px;height:454px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> </span></div>
 <div><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span></div>
@@ -194,7 +194,7 @@ h1
 <td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:454px;">&nbsp;</td>
 </tr>
 </table>
-<table style="position:absolute;left:178px;top:98px;width:862px;height:449px;z-index:2;" cellpadding="0" cellspacing="1" id="Table2">
+<table style="position:absolute;left:178px;top:55px;width:862px;height:449px;z-index:2;" cellpadding="0" cellspacing="1" id="Table2">
 <tr>
 <td style="background-color:#DCDCDC;border:1px #C0C0C0 inset;text-align:left;vertical-align:top;width:74px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 사원번호</span></div>
 </td>
@@ -219,17 +219,17 @@ h1
 <td colspan="10" style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:418px;">&nbsp;</td>
 </tr>
 </table>
-<div id="wb_Text1" style="position:absolute;left:37px;top:62px;width:196px;height:27px;z-index:3;text-align:left;" class="Heading 1 <h1>">
+<div id="wb_Text1" style="position:absolute;left:37px;top:20px;width:196px;height:27px;z-index:3;text-align:left;" class="Heading 1 <h1>">
 <span style="color:#000000;font-family:Arial;font-size:13px;">출퇴근관리</span></div>
-<select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:737px;top:66px;width:94px;height:20px;z-index:4;">
+<select name="Combobox1" size="1" id="Combobox1" style="position:absolute;left:737px;top:25px;width:94px;height:20px;z-index:4;">
 <option selected value="이름">이름</option>
 <option value="사원번호">사원번호</option>
 </select>
-<textarea name="TextArea2" id="TextArea2" style="position:absolute;left:838px;top:66px;width:148px;height:16px;z-index:5;" rows="0" cols="19"></textarea>
-<input type="submit" id="Button1" name="search" value="검색" style="position:absolute;left:996px;top:65px;width:39px;height:19px;z-index:6;">
-<input type="submit" id="Button2" name="" value="◀이전월 " style="position:absolute;left:849px;top:560px;width:57px;height:25px;z-index:7;">
-<input type="submit" id="Button3" name="" value="다음월▶" style="position:absolute;left:914px;top:559px;width:58px;height:25px;z-index:8;">
-<input type="text" id="Editbox1" style="position:absolute;left:35px;top:130px;width:125px;height:18px;line-height:18px;z-index:9;" name="Editbox1" value="지점시작 전 30분">
-<input type="text" id="Editbox2" style="position:absolute;left:34px;top:188px;width:129px;height:19px;line-height:19px;z-index:10;" name="Editbox2" value="지점종료 후 30분">
+<textarea name="TextArea2" id="TextArea2" style="position:absolute;left:838px;top:25px;width:148px;height:16px;z-index:5;" rows="0" cols="19"></textarea>
+<input type="submit" id="Button1" name="search" value="검색" style="position:absolute;left:996px;top:25px;width:39px;height:19px;z-index:6;">
+<input type="submit" id="Button2" name="" value="◀이전월 " style="position:absolute;left:849px;top:520px;width:57px;height:25px;z-index:7;">
+<input type="submit" id="Button3" name="" value="다음월▶" style="position:absolute;left:914px;top:520px;width:58px;height:25px;z-index:8;">
+<input type="text" id="Editbox1" style="position:absolute;left:35px;top:90px;width:125px;height:18px;line-height:18px;z-index:9;" name="Editbox1" value="지점시작 전 30분">
+<input type="text" id="Editbox2" style="position:absolute;left:34px;top:155px;width:129px;height:19px;line-height:19px;z-index:10;" name="Editbox2" value="지점종료 후 30분">
 </body>
 </html>

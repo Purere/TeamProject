@@ -313,29 +313,30 @@ $(document).ready(function()
 <td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:22px;">&nbsp;</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td><input type="text" name="" size="8"/></td>
+<td><input type="text" name="" size="8"/></td>
+<td><input type="text" name="" size="8"/></td>
 <td><input type="button" value="행삭제"/></td>
 </tr>
 </table>
-<table style="position:absolute;left:524px;top:89px;width:433px;height:30px;z-index:13;" cellpadding="0" cellspacing="1" id="Table4">
+<hc/>
+<table style="position:absolute;left:530px;top:89px;width:433px;height:30px;z-index:13;" cellpadding="0" cellspacing="1" id="Table4">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:74px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">차량번호</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">차량번호</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 차종</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:18px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 차종</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:74px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 기사</span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 기사</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:78px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운행목적(지)&nbsp;&nbsp; </span></div>
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:80px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운행목적(지)&nbsp;&nbsp; </span></div>
 </td>
 <td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:40px;height:22px;">&nbsp;</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><input type="text" name="" size="8"/></td>
+<td><input type="text" name="" size="4"/></td>
+<td><input type="text" name="" size="8"/></td>
+<td><input type="text" name="" size="25"/></td>
 <td><input type="button" value="행삭제"/></td>
 </tr>
 </table>

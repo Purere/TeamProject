@@ -304,13 +304,13 @@ $(document).ready(function()
 <input type="text" id="Editbox4" style="position:absolute;left:854px;top:49px;width:111px;height:19px;line-height:19px;z-index:11;" name="Editbox1" value="">
 <table style="position:absolute;left:258px;top:89px;width:259px;height:30px;z-index:12;" cellpadding="0" cellspacing="1" id="Table3">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:76px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원번호</span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:76px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원번호</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:76px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원이름</span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:76px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직원이름</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:48px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직무</span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:48px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 직무</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:22px;">&nbsp;</td>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:22px;">&nbsp;</td>
 </tr>
 <tr>
 <td><input type="text" name="" size="8"/></td>
@@ -320,17 +320,18 @@ $(document).ready(function()
 </tr>
 </table>
 <hc/>
+<!-- 테이블  -->
 <table style="position:absolute;left:530px;top:89px;width:433px;height:30px;z-index:13;" cellpadding="0" cellspacing="1" id="Table4">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">차량번호</span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;">차량번호</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:18px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 차종</span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:18px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 차종</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 기사</span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:30px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:13px;"> 기사</span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:80px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운행목적(지)&nbsp;&nbsp; </span></div>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:80px;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운행목적(지)&nbsp;&nbsp; </span></div>
 </td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:40px;height:22px;">&nbsp;</td>
+<td style="background-color:lightgray;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:40px;height:22px;">&nbsp;</td>
 </tr>
 <tr>
 <td><input type="text" name="" size="8"/></td>

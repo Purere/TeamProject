@@ -304,6 +304,15 @@ $(document).ready(function()
 <td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;height:22px;"><div><span style="color:#000000;font-family:Arial;font-size:16px;"> 운영시간2</span></div>
 </td>
 </tr>
+<tr>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"></td>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"></td>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"></td>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"></td>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"></td>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;"></td>
+<td style="background-color:white;border:1px #C0C0C0 solid;text-align:center;vertical-align:top;width:66px;height:22px;">dd</td>
+</tr>
 </table>
 </body>
 </html>

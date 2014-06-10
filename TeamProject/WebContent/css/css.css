@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 0px 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555555;
+  vertical-align: middle;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+div {
+	line-height: 17px;	
+}
+
+*{margin: 0; padding: 0;}
+body{width: 950; margin: 0 auto; background-color: balck; color: white;}
+
+header,nav,section,footer{text-align: center;}
+header{line-height: 30px;}
+
+header{top: 0px; height: 30px; background-color: #666666; width: 100%; position: fixed; z-index:900;}
+nav{top:30px; height: 25px; padding-top:10px; line-height: 30px; background-color: #333333; width:100%;  position: fixed; z-index:10000;}
+section{background-color: #999999;}   
+footer{clear:both; height: 30px; background: gray;}

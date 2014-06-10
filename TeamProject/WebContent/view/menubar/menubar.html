@@ -1,0 +1,84 @@
+<div class="row">
+	<div class="span1">		
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle"  data-toggle="dropdown">인사관리</a>
+			<ul class="dropdown-menu">
+				<li class="dropdown-submenu">
+					<a href="#">조직관리</a>
+					<ul class="dropdown-menu">
+						<li><a onclick="sendState(this)">사원정보설정*조회</a></li>
+						<li><a onclick="sendState(this)">출퇴관리</a></li>
+						<li><a onclick="sendState(this)">급여관리</a></li>
+					</ul>
+				</li>
+			</ul>			
+		</div>
+	</div>		
+	<div class="span1">
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">집배관리</a>
+			<ul class="dropdown-menu">
+				<li class="dropdown-submenu">
+					<a href="#">운송장등록</a>
+					<ul class="dropdown-menu">							
+						<li><a onclick="sendState(this)">일반운송장등록</a></li>
+						<li><a onclick="sendState(this)">배송인수자등록(받는고객)</a></li>
+						<li><a onclick="sendState(this)">운송장수정요청</a></li>
+						<li><a onclick="sendState(this)">운송장수정현황</a></li>
+					</ul>
+				</li>
+				<li class="dropdown-submenu">
+					<a href="#">집배계획</a>
+					<ul class="dropdown-menu">
+						<li><a onclick="sendState(this)">고객별접수취소</a></li>
+						<li><a onclick="sendState(this)">반송요청</a></li>
+						<li><a onclick="sendState(this)">반송확인및승인</a></li>
+					</ul>
+				</li>
+			</ul>			
+		</div>
+	</div>		
+	<div class="span1">
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">고객관리</a>
+			<ul class="dropdown-menu">								
+				<li class="dropdown-submenu">
+					<a href="#">사고처리</a>
+					<ul class="dropdown-menu">
+						<li><a onclick="sendState(this)">배송사고등록*조회</a></li>
+					</ul>
+				</li>
+			</ul>			
+		</div>
+	</div>		
+	<div class="span1">
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">지점관리</a>
+			<ul class="dropdown-menu">
+				<li><a onclick="sendState(this)">지점현황</a></li>
+			</ul>			
+		</div>
+	</div>		
+	<div class="span1">
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">추적관리</a>
+			<ul class="dropdown-menu">
+				<li><a onclick="sendState(this)">배차조회</a></li>
+				<li><a onclick="sendState(this)">화물추적</a></li>					
+			</ul>			
+		</div>
+	</div>		
+	<div class="span1">
+		<div class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">매출관리</a>
+			<ul class="dropdown-menu">
+				<li><a onclick="sendState(this)">일일매출조회</a></li>
+				<li><a onclick="sendState(this)">월별매출조회</a></li>
+				<li><a onclick="sendState(this)">연도별매출조회</a></li>					
+			</ul>			
+		</div>
+	</div>	
+</div>
+<form name="be" action="/TeamProject/servlet.do" method="post">
+	<input type="hidden" name="state"/>	
+</form>
